@@ -22,6 +22,4 @@
     <string name="new_recipe_headline">Neues Rezept</string>
     <string name="no_ingredient_toast">Sie haben keine Zutat eingegeben!</string>
     <string name="not_full_recipe">Sie haben noch nicht alle für ein Rezept benötigten Eingaben betätigt!</string>
-
-    //test
 </resources>
