@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rezepte-App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shopping_list">ShoppingList</string>
+    <string name="new_recipe_button">Neues Rezept hinzufügen</string>
+    <string name="new_recipe_recipe_title">Titel des Rezeptes</string>
+    <string name="new_recipe_recipe_ingredients">Zutaten</string>
+    <string name="new_recipe_new_ingredient">Neuer Eintrag</string>
+    <string name="new_recipe_add_button">hinzufügen</string>
+    <string name="new_recipe_recipe_description">Kochanweisungen</string>
+    <string name="new_recipe_edit_recipe_definition">Geben sie hier das Rezept ein (ohne Zutaten)</string>
+    <string name="new_recipe_button_save">Rezept speichern</string>
+    <string name="new_recipe_headline">Neues Rezept</string>
+    <string name="no_ingredient_toast">Sie haben keine Zutat eingegeben!</string>
+    <string name="not_full_recipe">Sie haben noch nicht alle für ein Rezept benötigten Eingaben betätigt!</string>
+</resources>
