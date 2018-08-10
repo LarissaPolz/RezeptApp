@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Rezepte-App</string>
+    <string name="title_activity_new__recipe">Neues Rezept</string>
+    <string name="title_activity_recipe__show">Rezept anzeigen</string>
+    <string name="title_activity_recipes">Rezept Activity</string>
+    <string name="title_activity_timer">Activity Timer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
