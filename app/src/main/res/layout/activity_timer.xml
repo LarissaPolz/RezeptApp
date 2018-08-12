@@ -1,9 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Timer">
+    android:background="@color/soft">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/startButton"
+        android:layout_marginStart="40dp"
+        android:text="@string/delete"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/start"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp" />
+
+    <TextView
+        android:id="@+id/timerShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:text="00:00:00"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <Spinner
+        android:id="@+id/spinnerHour"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/spinnerSeconds"
+        android:layout_alignParentLeft="true" />
+
+    <Spinner
+        android:id="@+id/spinnerSeconds"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentRight="true" />
+
+    <Spinner
+        android:id="@+id/spinnerMinutes"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinnerHour"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hourTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/deleteButton"
+        android:layout_marginTop="108dp"
+        android:text="@string/hours"
+        android:layout_alignLeft="@+id/deleteButton" />
+
+    <TextView
+        android:id="@+id/minuteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hourTextView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/minutes" />
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/hourTextView"
+        android:layout_marginEnd="30dp"
+        android:text="@string/seconds"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:text="Zeit Setzen"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Timer"
+        android:textColor="@color/black"
+        android:fontFamily="@font/"
+        android:textSize="40sp" />
+
+</RelativeLayout>
