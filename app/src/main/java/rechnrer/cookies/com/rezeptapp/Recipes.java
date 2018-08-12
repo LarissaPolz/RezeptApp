@@ -28,6 +28,9 @@ public class Recipes extends AppCompatActivity {
         setupButtons();
     }
 
+    private void setupButtons() {
+    }
+
     private void setupListView(){
         ListView recipeListView = (ListView) findViewById(R.id.recipeList);
         recipesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, recipes);
